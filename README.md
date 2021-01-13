@@ -1,11 +1,17 @@
-gatling-maven-plugin-demo
-=========================
+# Demo Blaze Gatling
 
-Simple showcase of a maven project using the gatling-maven-plugin.
+This is a Scala/Gatling test framework built for running load tests on the [Demo Blaze](https://www.demoblaze.com/) website
 
+## Getting Started
+### Prerequisities
+* Scala
+* Maven
+* IDE (Intellj - preferred)
+
+## Running tests
 To test it out, simply execute the following command:
 
-    $mvn gatling:test -Dgatling.simulationClass=computerdatabase.BasicSimulation
+    $mvn gatling:test -Dgatling.simulationClass=demoblaze.DemoBlazeSimulation
 
 or simply:
 
